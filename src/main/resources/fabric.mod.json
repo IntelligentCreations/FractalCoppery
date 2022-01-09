@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fractal_coppery",
+  "version": "${version}",
+
+  "name": "Fractal Coppery",
+  "description": "Simple copper tools, but completely server-side!",
+  "authors": [
+    "Peakstep",
+    "PoseidonLee"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/fractal_coppery/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.teamfractal.fractalcoppery.FractalCoppery"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "polymer": "*"
+  }
+}
